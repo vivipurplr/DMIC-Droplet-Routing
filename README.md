@@ -1,4 +1,10 @@
-# Droplet Path Planning for Digital Microfluidic Chip
+# Description
+This repository is used to support the following work:
+
+Microfluidic integrated DNA neural computing
+Mengyao Cao, Na Li, Xiewei Xiong*, Sichen Xing, Jianing Wang, Bowen Li, Yun Zhu, Tong Zhu, Fei Wang, Siyi Hu, Hanbin Ma, Longqian Xu, Chunyu Chang, Jiajian Ji, Qunyan Yao, Li Li, Hao Pei*, Chunhai Fan*
+
+# Droplet Path Planning for DMIC
 
 A multi-droplet parallel path planning algorithm implemented in Qt/C++ for digital microfluidic (DMF) chips, with collision detection and avoidance.
 
@@ -31,7 +37,7 @@ Before each move, the algorithm checks a **2-cell safety margin** around the tar
 
 ```
 .
-├── fun.cpp        # Core implementation (struct definitions + algorithm functions)
+├── Sourcecode.cpp        # Core implementation (struct definitions + algorithm functions)
 └── README.md
 ```
 
